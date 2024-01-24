@@ -1,6 +1,5 @@
 # ml-with-MLflow
 
-
 ## Workflows
 
 1. Update config.yaml
@@ -12,3 +11,73 @@
 7. Update the pipeline 
 8. Update the main.py
 9. Update the app.py
+
+
+
+# How to run?
+### STEPS:
+
+Clone the repository
+
+```bash
+https://github.com/uthsavi97/ml-with-MLflow
+```
+### STEP 01- Create a conda environment after opening the repository
+
+```bash
+conda create -n mlproj python=3.11.5 -y
+```
+
+```bash
+conda activate mlproj
+```
+
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+
+```bash
+# Finally run the following command
+python app.py
+```
+
+Now,
+```bash
+open up you local host and port
+```
+
+
+
+## MLflow
+
+[Documentation](https://mlflow.org/docs/latest/index.html)
+
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/uthsavi97/ml-with-MLflow.mlflow \
+MLFLOW_TRACKING_USERNAME=uthsavi97 \
+MLFLOW_TRACKING_PASSWORD=9443d56bb7aa50de09f2e485d7d13bb17bc200d6 \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/uthsavi97/ml-with-MLflow.mlflow
+
+export MLFLOW_TRACKING_USERNAME=uthsavi97 
+
+export MLFLOW_TRACKING_PASSWORD=9443d56bb7aa50de09f2e485d7d13bb17bc200d6
+
+```
+
+
+
