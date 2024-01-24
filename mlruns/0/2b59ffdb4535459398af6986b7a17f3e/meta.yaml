@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/ml-with-MLflow/mlruns/0/2b59ffdb4535459398af6986b7a17f3e/artifacts
+end_time: 1706125070444
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2b59ffdb4535459398af6986b7a17f3e
+run_name: adaptable-gnat-204
+run_uuid: 2b59ffdb4535459398af6986b7a17f3e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706125064505
+status: 3
+tags: []
+user_id: Admin

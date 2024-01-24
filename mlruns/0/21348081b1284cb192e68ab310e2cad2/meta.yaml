@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/ml-with-MLflow/mlruns/0/21348081b1284cb192e68ab310e2cad2/artifacts
+end_time: 1706125423955
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 21348081b1284cb192e68ab310e2cad2
+run_name: fortunate-wolf-961
+run_uuid: 21348081b1284cb192e68ab310e2cad2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706125418985
+status: 3
+tags: []
+user_id: Admin
